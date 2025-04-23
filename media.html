@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Media Page</title>
+</head>
+<body>
+
+  <h1>About Me</h1>
+
+  <p>I am Deji Jegede, a product leader passionate about using innovation to drive change in Africa and globally.</p>
+
+  <h2>Responsive Image</h2>
+  <picture>
+    <source media="(max-width: 600px)" srcset="images/me-mobile.jpg">
+    <source media="(max-width: 1024px)" srcset="images/me-tablet.jpg">
+    <source media="(min-width: 200px)" srcset="images/me-desktop.jpg">
+    <img src="images/me-desktop.jpg" alt="Photo of Deji Jegede">
+  </picture>
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="media/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Video</h2>
+  <video width="320" height="240" controls>
+    <source src="media/intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <p><a href="index.html">← Back to Home</a></p>
+
+</body>
+</html>
